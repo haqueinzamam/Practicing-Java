@@ -5,6 +5,9 @@ public class strings {
         String name2 = "Inzamam";
         String name3 = name1 + " and " + name2;
         System.out.println(name3);
+        //charAt
+        System.out.println(name1.charAt(1));
+    
     }
 }
  
