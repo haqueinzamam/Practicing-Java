@@ -7,6 +7,14 @@ public class strings {
         System.out.println(name3);
         //charAt
         System.out.println(name1.charAt(1));
+        //length
+        System.out.println(name3.length());
+        //replace
+        String name4 = name1.replace("Z", "B");
+        System.out.println(name4);
+        //substring
+        String name5 = "Arbaaz and Zakariya";
+        System.out.println(name5.substring(0, 6));
     
     }
 }
